@@ -13,7 +13,7 @@ iex ((New-Object System.Net.WebClient).DownloadString("https://tinyurl.com/PSRun
 
 ```
 
-PS C:\WINDOWS\system32> (PSAsCurrentUser -ScriptBlock {Get-Partition | ConvertTo-Json} | ConvertFrom-Json).Size;
+PS C:\WINDOWS\system32> (PSRunAsCurrentUser -ScriptBlock {Get-Partition | ConvertTo-Json} | ConvertFrom-Json).Size;
 
 554696704
 104857600
