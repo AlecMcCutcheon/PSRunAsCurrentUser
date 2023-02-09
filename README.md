@@ -1,5 +1,5 @@
 # PSRunAsCurrentUser
-A PowerShell Script/Function that can run a PowerShell scriptblock as the current user, using a scheduled task
+A PowerShell Script/Function that can run a PowerShell scriptblock as the current user Non-Elevated, using a scheduled task
 
 Use the following One-liner to Temp Run in session: 
 
