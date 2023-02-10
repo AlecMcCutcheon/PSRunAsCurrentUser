@@ -22,3 +22,5 @@ PS C:\WINDOWS\system32> (PSRunAsCurrentUser -ScriptBlock {Get-Partition | Conver
 610271232
 
 ```
+
+Check out my other project: "[Get-CUOneDriveStatus](https://github.com/AlecMcCutcheon/Get-CUOneDriveStatus)" to see how I use this function there's a compatibility layer for "Get-ODStatus"
