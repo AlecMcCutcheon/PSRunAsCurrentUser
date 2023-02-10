@@ -1,4 +1,4 @@
-# PSRunAsCurrentUser
+ # PSRunAsCurrentUser
 A PowerShell Script/Function that can run a PowerShell scriptblock as the current user Non-Elevated, using a scheduled task.
 
 Note: The task and any log files used are cleaned up after execution.
@@ -23,4 +23,4 @@ PS C:\WINDOWS\system32> (PSRunAsCurrentUser -ScriptBlock {Get-Partition | Conver
 
 ```
 
-Check out my other project: "[Get-CUOneDriveStatus](https://github.com/AlecMcCutcheon/Get-CUOneDriveStatus)" to see how I use this function there's a compatibility layer for "Get-ODStatus"
+Check out my other project: "[Get-CUOneDriveStatus](https://github.com/AlecMcCutcheon/Get-CUOneDriveStatus)" to see how I use this function as a compatibility layer for "Get-ODStatus"
