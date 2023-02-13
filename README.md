@@ -4,7 +4,9 @@ A PowerShell Script/Function that can run a PowerShell scriptblock as the curren
 Notes:
 
 The Function Automacticly parses through the logs and outputs to the current session.
+
 All .Log/.vbs files are hidden during the tasks execution.
+
 The task itself and any .log/.vbs files used by the task are cleaned up after execution. 
 
 Use the following One-liner to Temp Run in session: 
