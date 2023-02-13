@@ -23,6 +23,6 @@ PS C:\WINDOWS\system32> (PSRunAsCurrentUser -ScriptBlock {Get-Partition | Conver
 610271232
 
 ```
-The scheduled task executes the PowerShell through a VBS script by default to make it hidden to the end user, however it has a fall back in case it is unable to create/ran a VBS script properly on the target machine, which just gets executed as a normal PowerShell window that is hidden what does flash for half a second when it is executed. If you want to test the fall back or you prefer to use it you can use this switch "-ForceFallback"
+The scheduled task executes the PowerShell through a VBS script by default to make it hidden to the end user, however it has a fall back in case it is unable to create/run VBS scripts properly on the target machine, which just gets executed as a normal PowerShell window that is hidden what does flash for half a second when it is executed. If you want to test the fall back or you prefer to use it you can use this switch "-ForceFallback"
 
 Check out my other project: "[Get-CUOneDriveStatus](https://github.com/AlecMcCutcheon/Get-CUOneDriveStatus)" to see how I use this function as a compatibility layer for "Get-ODStatus"
