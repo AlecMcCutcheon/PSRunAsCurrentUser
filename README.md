@@ -1,7 +1,7 @@
  # PSRunAsCurrentUser
 A PowerShell Script/Function that can run a PowerShell scriptblock as the current user Non-Elevated, using a scheduled task.
 
-Note: The task and any log files used are cleaned up after execution.
+Note: The task and any log files used are cleaned up after execution. Log files Are hidden while they exist.
 
 Use the following One-liner to Temp Run in session: 
 
