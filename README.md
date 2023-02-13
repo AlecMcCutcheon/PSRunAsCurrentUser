@@ -6,13 +6,13 @@ Note: The task and any log files used are cleaned up after execution.
 Use the following One-liner to Temp Run in session: 
 
 ```
-iex ((New-Object System.Net.WebClient).DownloadString("https://tinyurl.com/PSRunAsCurrentUser"));
+iex ((New-Object System.Net.WebClient).DownloadString("https://rawcdn.githack.com/AlecMcCutcheon/PSRunAsCurrentUser/b419b135641597982a2a4fa38e27502cde172584/PSRunAsCurrentUser.ps1"));
 ```
 
 # Usage
 
 ```
-PS C:\WINDOWS\system32> iex ((New-Object System.Net.WebClient).DownloadString("https://tinyurl.com/PSRunAsCurrentUser"));
+PS C:\WINDOWS\system32> iex ((New-Object System.Net.WebClient).DownloadString("https://rawcdn.githack.com/AlecMcCutcheon/PSRunAsCurrentUser/b419b135641597982a2a4fa38e27502cde172584/PSRunAsCurrentUser.ps1"));
 
 PS C:\WINDOWS\system32> (PSRunAsCurrentUser -ScriptBlock {Get-Partition | ConvertTo-Json} | ConvertFrom-Json).Size;
 
